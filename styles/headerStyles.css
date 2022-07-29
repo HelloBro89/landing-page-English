@@ -1,0 +1,468 @@
+.main-modal-btn {
+    position: fixed;
+    margin: auto auto 100px auto;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 110px;
+    animation: glowing 1300ms infinite;
+    z-index: 1;
+    border: none;
+    border-radius: 20px;
+    max-width: 140px;
+    font-family: cursive;
+}
+
+@keyframes glowing {
+    0% {
+        background-color: hsl(34, 79%, 45%);
+        box-shadow: 0 0 5px hsl(34, 79%, 45%);
+    }
+    50% {
+        background-color: hsl(34, 60%, 60%);
+        box-shadow: 0 0 20px hsl(34, 60%, 60%);
+    }
+    100% {
+        background-color: hsl(34, 79%, 45%);
+        box-shadow: 0 0 5px hsl(34, 79%, 45%);
+    }
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+}
+.butn {
+    background-color: transparent;
+    color: white;
+    border: 0;
+}
+
+.head {
+    background-color: rgb(128, 128, 128);
+    font-family: cursive;
+    color: white;
+    font-size: large;
+}
+
+.butn-mr {
+    margin-left: 25px;
+}
+.colOverall:hover {
+    color: rgba(0, 0, 255, 0.568);
+}
+
+.col0 {
+    text-align: right;
+}
+
+.col1 {
+    text-align: left;
+    font-size: larger;
+}
+.col2 {
+    text-align: center;
+}
+
+.col5 {
+    text-align: center;
+}
+.logo {
+    width: 70px;
+}
+
+.bi {
+    color: greenyellow;
+}
+/*------------------------------------- HEADER MAIN ------------------------------*/
+
+.hdr {
+    background-image: url('../assets/img/london.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.col-hdr-right {
+    text-align: center;
+    
+}
+
+.col-hdr-left {
+    text-align: center;
+}
+
+.cart-header-style {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-text-centr {
+    color: black;
+    font-weight: 500;
+}
+.calANDclock {
+    overflow: hidden;
+}
+
+.clockCalendar-img {
+    max-width: 50px;
+}
+
+.clock-text {
+    font-weight: 500;
+    color: rgb(78, 73, 73);
+}
+
+.btn-hd {
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: none;
+}
+
+@keyframes glowingOne {
+    0% {
+        background-color: hsl(106, 94%, 34%);
+        box-shadow: 0 0 5px hsl(106, 94%, 34%);
+    }
+    50% {
+        background-color: hsl(106, 82%, 50%);
+        box-shadow: 0 0 20px hsl(106, 82%, 50%);
+    }
+    100% {
+        background-color: hsl(106, 94%, 34%);
+        box-shadow: 0 0 5px hsl(106, 94%, 34%);
+    }
+}
+
+.btn-hd {
+    animation: glowingOne 1300ms infinite;
+}
+
+/* ----------------------------------------------------MAIN COURSES----------------------------------------- */
+
+.card-carousesl-img {
+    height: 200px;
+    padding: 10px;
+}
+
+.card-style-text {
+    line-height: 1;
+}
+
+.hd-crs {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.col-hd-crs {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.span-hd-crs {
+    color: red;
+}
+
+.context-hd-crs {
+    font-weight: 500;
+    color: rgba(92, 86, 86, 0.568);
+}
+
+.arrows {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-arrows {
+    padding-top: 6px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.63);
+    border-radius: 14px;
+}
+
+.carousel-arrows:hover {
+    background-color: rgba(0, 0, 255, 0.568);
+}
+
+.arrow-control-left {
+    background-image: url('../assets/img/left-arrow.png');
+    width: 30px;
+}
+
+.arrow-control-right {
+    background-image: url('../assets/img/right-arrow.png');
+    width: 30px;
+}
+
+#carouselExampleControls {
+    margin-top: 30px;
+}
+.col-crsl {
+    min-height: 420px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.crd-crsl {
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    border-radius: 20px;
+    max-width: 230px;
+    background-color: rgba(194, 180, 190, 0.26);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+    border-radius: 15px;
+}
+
+.but-crsl {
+    position: absolute;
+    margin-left: -74px;
+    padding-top: 2px;
+    width: 170px;
+    bottom: 10px;
+    border: none;
+    background-color: #e64545;
+    max-width: 150px;
+}
+
+.but-crsl:hover {
+    background-color: rgba(0, 0, 255, 0.568);
+}
+/* ----------------------------------------------------MAIN BENEFITS----------------------------------------- */
+
+.cont-benefits {
+    background-image: url('../assets/img/workIOnline.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.row-first-benefits {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.col-title {
+    overflow-wrap: break-word;
+    margin-top: 50px;
+}
+
+.span-benefits {
+    color: red;
+}
+
+.context-benefits {
+    font-size: 15px;
+    color: rgba(92, 86, 86, 0.767);
+}
+
+.block-two-benefits {
+    margin-left: 40px;
+}
+
+.block-three-benefits {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.block-one-benefits,
+.block-two-benefits,
+.block-three-benefits {
+    background-image: url('../assets/img/BG.jpg');
+    border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+    max-width: 270px;
+    max-height: 270px;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    box-shadow: 0 0 10px rgba(214, 148, 6, 0.829);
+}
+
+.block-one-benefits p {
+    margin-top: 10px;
+    line-height: 1.1;
+    font-size: 13px;
+}
+
+.block-two-benefits p {
+    margin-top: 10px;
+    line-height: 1.1;
+    font-size: 13px;
+}
+.block-three-benefits p {
+    margin-top: 10px;
+    line-height: 1.2;
+    font-size: 13px;
+}
+
+/* ----------------------------------------------------MAIN TEACHERS----------------------------------------- */
+
+.btn-teacher-left,
+.btn-teacher-right,
+.btn-show-more {
+    margin-top: 20px;
+    color: red;
+    border-width: 2.5px;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.btn-teacher-left:hover,
+.btn-teacher-right:hover,
+.btn-show-more:hover {
+    background-color: red;
+    color: white;
+}
+.customSize {
+    width: 500px;
+}
+
+.btn-teacher-left {
+    margin-right: 20px;
+}
+
+.btn-teacher-right {
+    margin-left: 20px;
+}
+
+.img-teachers {
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.row-list-teachers {
+    margin-top: 50px;
+}
+
+.card-teachers {
+    border-radius: 10px;
+    margin: 20px 5px auto 5px;
+    box-shadow: 0 0 10px rgba(194, 183, 183, 0.5);
+}
+
+.card-teachers p {
+    margin-top: 20px;
+    line-height: 0.4;
+}
+
+.img-play {
+    border: none;
+    width: 20px;
+}
+
+.video-link {
+    color: red;
+}
+
+.video-link:hover {
+    color: blue;
+}
+
+/* ----------------------------------------------------FORM----------------------------------------- */
+
+.form-container {
+    background-image: url('../assets/img/question.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    background-color: rgba(63, 60, 60, 0.226);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 2px solid;
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+.block-btn {
+    text-align: center;
+}
+
+.btn-form {
+    background-color: rgba(49, 15, 15, 0.699);
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+}
+.btn-form:hover {
+    background-color: black;
+}
+
+/* ----------------------------------------------------FOOTER----------------------------------------- */
+/* font-size: large;
+font-family: cursive; */
+.foot {
+    background-color: rgb(128, 128, 128);
+    height: 150px;
+    width: 250vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.ft-rw {
+    font-family: cursive;
+    font-size: large;
+}
+
+.colFtThree {
+    color: black;
+}
+
+.colFtThree:hover,
+.colFtFour:hover {
+    color: white;
+}
+
+.about {
+    text-align: left;
+    color: black;
+}
+
+.colFtFour {
+    color: black;
+}
+
+/* ---------------------------------------------------МОДАЛЬНО ОКНО---------------------- */
+
+.modal-dialog {
+    max-width: 450px;
+}
+
+.modal-content {
+    border-radius: 10px;
+    background-color: rgb(27, 90, 51);
+    color: white;
+}
+
+.btnSubscribe {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.btnClose {
+    color: white;
+    background-color: black;
+}
